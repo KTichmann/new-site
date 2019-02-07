@@ -1,11 +1,19 @@
+body{
+    padding-top: 100px;
+}
 header{
     display: flex !important;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    height: 50px;
+    width: 100%;
     padding-top: 2rem;
     padding-left: 6rem;
     padding-right: 4rem;
     padding-bottom: 0px;
+    margin-bottom: 100px;
 }
 
 header img{
@@ -17,5 +25,5 @@ header img{
 header a{
     text-decoration: none;
     padding-right: 25px;
-    color: #340068;
+    color: #26a;
 }
