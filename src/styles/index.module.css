@@ -1,6 +1,10 @@
+.index-above-fold{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .avatar{
     height: 20rem;
-    display: block;
     margin: auto;
 }
 

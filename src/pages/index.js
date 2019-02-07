@@ -19,10 +19,12 @@ class IndexPage extends React.Component{
   render(){
     return(
       <Layout>
-        <h1>Kerwin Tichmann</h1>
-        <h2>Web Developer</h2>
-        <img alt="avatar" className={styles.avatar} src={avatar}/>
-        <p>I'm a front-end web developer based in Cape Town. Take a look at my <Link to="/portfolio">portfolio</Link> or <Link to="/contact">get&nbsp;in&nbsp;touch</Link></p>
+        <div class="index-above-fold">
+          <h1>Kerwin Tichmann</h1>
+          <h2>Web Developer</h2>
+          <img alt="avatar" className={styles.avatar} src={avatar}/>
+          <p>I'm a front-end web developer based in Cape Town. Take a look at my <Link to="/portfolio">portfolio</Link> or <Link to="/contact">get&nbsp;in&nbsp;touch</Link></p>
+        </div>
       </Layout>
     )
   }
