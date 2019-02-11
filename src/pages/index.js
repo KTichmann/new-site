@@ -19,11 +19,13 @@ class IndexPage extends React.Component{
   render(){
     return(
       <Layout>
-        <div class="index-above-fold">
-          <h1>Kerwin Tichmann</h1>
-          <h2>Web Developer</h2>
+        <div className={styles.indexAboveFold}>
+          <div style={{marginTop: "5%"}}>
+            <h1 style={{textAlign: "left"}}>Mark Testing</h1>
+            <h2 style={{textAlign: "left"}}>Frontend Dev</h2>
+            <p style={{textAlign: "left", width: "550px", marginTop: "0px"}}>I'm a front-end web developer based in Cape Town. Take a look at my <Link to="/portfolio">portfolio</Link> or <Link to="/contact">get&nbsp;in&nbsp;touch</Link></p>
+          </div>
           <img alt="avatar" className={styles.avatar} src={avatar}/>
-          <p>I'm a front-end web developer based in Cape Town. Take a look at my <Link to="/portfolio">portfolio</Link> or <Link to="/contact">get&nbsp;in&nbsp;touch</Link></p>
         </div>
       </Layout>
     )

@@ -1,8 +1,10 @@
-.index-above-fold{
+.indexAboveFold{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 30px;
 }
+
 .avatar{
     height: 20rem;
     margin: auto;
