@@ -1,5 +1,5 @@
 body{
-    padding-top: 100px;
+    padding-top: 90px;
 }
 header{
     display: flex !important;
@@ -9,11 +9,11 @@ header{
     top: 0%;
     height: 50px;
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 1.7rem;
     padding-left: 6rem;
     padding-right: 4rem;
     padding-bottom: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 header img{
