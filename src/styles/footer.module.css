@@ -1,0 +1,25 @@
+footer {
+    height: auto;
+    display: flex !important;
+    justify-content: space-between;
+    padding: 3rem 10rem;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav a {
+    margin-bottom: 1.1rem;
+    text-decoration: none;
+    color: #26a;
+    font-size: 1.15rem;
+}
+
+footer div {
+    width: 500px;
+    padding: 2rem;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}

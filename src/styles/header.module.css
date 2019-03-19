@@ -1,8 +1,11 @@
 body{
-    padding-top: 90px;
+    padding-top: 80px;
 }
+
 header{
+    z-index: 2;
     display: flex !important;
+    background-color: whitesmoke;
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
@@ -12,14 +15,14 @@ header{
     padding-top: 1.7rem;
     padding-left: 6rem;
     padding-right: 4rem;
-    padding-bottom: 0px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
-header img{
-    width: auto;
-    height: 3rem;
-    margin-top: -12px;
+header .logo{
+    font-size: 1.3rem;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);;
 }
 
 header a{
