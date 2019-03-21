@@ -9,6 +9,7 @@ import codepad from "../images/codepad.jpg";
 import movie from "../images/movie.png";
 import ssl from "../images/ssl.jpg";
 import forum from "../images/jobFinder.jpg";
+import api from "../images/forumApi.jpg";
 
 const PortfolioPage = () => (
   <Layout>
@@ -28,7 +29,7 @@ const PortfolioPage = () => (
     </div>
     <div id={styles.projectSection}>
       <div className={styles.project}>
-        <img alt="forum" src={forum} />
+        <img alt="forum-api" src={api} />
         <div className={styles.projectSectionWording}>
           <span className={styles.projectSectionHeader}>Forum API</span>
           <span className={styles.separator} />
@@ -37,6 +38,20 @@ const PortfolioPage = () => (
             PostGreSQL database. The api comes with routes for creating,
             reading, updating, and deleting posts, likes, and comments. There's
             also user authentication through JWT headers.
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/ktichmann"
+            >
+              See the Demo
+            </a>
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/ktichmann"
+            >
+              View on Github
+            </a>
           </span>
         </div>
       </div>
@@ -49,12 +64,26 @@ const PortfolioPage = () => (
             site built in Gatsby. Users can sign up, log in, create posts,
             comments, and leave likes. There's also a chat-box app built-in
             that's built using websockets on a separate server.
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/ktichmann"
+            >
+              See the Demo
+            </a>
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/ktichmann"
+            >
+              View on Github
+            </a>
           </span>
         </div>
-        <img alt="ssl" src={ssl} />
+        <img alt="ssl" src={forum} />
       </div>
       <div className={styles.project}>
-        <img alt="codepad" src={codepad} />
+        <img alt="codepad" src={ssl} />
         <div className={styles.projectSectionWording}>
           <span className={styles.projectSectionHeader}>
             LetsEncrypt Helper Plugin for WordPress
@@ -65,6 +94,20 @@ const PortfolioPage = () => (
             certificate through the wordpress frontend. Built for multisite
             installations, the plugin runs certbot-auto on the backend to
             create, update, revoke, or list certificates on the network.
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/ktichmann"
+            >
+              See the Demo
+            </a>
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/ktichmann"
+            >
+              View on Github
+            </a>
           </span>
         </div>
       </div>
@@ -79,11 +122,26 @@ const PortfolioPage = () => (
             code notes. Supports syntax highlighting for JavaScript, CSS, HTML,
             CoffeeScript, and JSX, as well as code formatting with prettier, and
             EMMET for HTML shortcuts.
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/ktichmann"
+            >
+              See the Demo
+            </a>
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/ktichmann"
+            >
+              View on Github
+            </a>
           </span>
         </div>
-        <img alt="ssl" src={ssl} />
+        <img alt="ssl" src={codepad} />
       </div>
       <div className={styles.project}>
+        <img alt="movie" src={movie} />
         <div className={styles.projectSectionWording}>
           <span className={styles.projectSectionHeader}>Movie Summarizer</span>
           <span className={styles.separator} />
@@ -108,7 +166,6 @@ const PortfolioPage = () => (
             </a>
           </span>
         </div>
-        <img alt="movie" src={movie} />
       </div>
     </div>
   </Layout>
