@@ -57,7 +57,7 @@ const PortfolioPage = () => (
       </div>
       <div className={styles.project}>
         <div className={styles.projectSectionWording}>
-          <span className={styles.projectSectionHeader}>For'm Frontend</span>
+          <span className={styles.projectSectionHeader}>Forum Frontend</span>
           <span className={styles.separator} />
           <span className={styles.projectSectionText}>
             A frontend that consumes my Forum API, displaying a forum 'static'

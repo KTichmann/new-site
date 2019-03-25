@@ -1,46 +1,55 @@
-main{
-    background-color: whitesmoke;
+main {
+  background-color: whitesmoke;
 }
 
-#projectSection{
-    margin: 0rem 4rem;
+#projectSection {
+  margin: 0rem 4rem;
 }
 
-.project{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
+.project {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
-.project img{
-    max-width: 40%;
-    height: 400px;
+.project img {
+  max-width: 40%;
+  height: 400px;
 }
 
-.projectSectionWording{
-    max-width: 40%;
+.projectSectionWording {
+  max-width: 40%;
 }
 
-.projectSectionHeader{
-    margin: 4rem;
-    display: block;
-    width: 400px;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
+.projectSectionHeader {
+  margin: 4rem;
+  display: block;
+  width: 400px;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
-.separator{
-    width: 70px;
-    border-bottom: 3px solid #26a;
-    display: block;
-    margin: 2rem 3rem;
+.separator {
+  width: 70px;
+  border-bottom: 3px solid #26a;
+  display: block;
+  margin: 2rem 3rem;
 }
 
-.projectSectionText{
-    margin: 0rem 4rem;
-    display: block;
+.projectSectionText {
+  margin: 0rem 4rem;
+  display: block;
 }
 
-.projectSectionText a{
-    margin: .3rem 0rem;
+.projectSectionText a {
+  margin: 0.3rem 0rem;
+  color: #26a;
+  width: auto;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.projectSectionText a:hover {
+  transform: translateY(-10%);
+  transition: transform 0.3s;
 }
