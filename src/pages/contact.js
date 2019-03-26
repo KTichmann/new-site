@@ -73,17 +73,18 @@ class ContactPage extends React.Component {
 					</div>
 				</div>
 				<div id='form-wrapper'>
+					<span className='title'>Send me a message:</span>
 					<div id='error_message' />
 					<div id='loader' />
 					<form id='contact-form'>
-						<label for='emailAddress'>Email</label>
+						<label htmlFor='emailAddress'>Email</label>
 						<TextField
 							margin='normal'
 							variant='outlined'
 							id='email'
 							name='emailAddress'
 						/>
-						<label for='message'>Message</label>
+						<label htmlFor='message'>Message</label>
 						<TextField
 							multiline
 							rows='6'
@@ -96,18 +97,19 @@ class ContactPage extends React.Component {
 							Send
 						</Button>
 					</form>
-					<div className='links'>
-						<span className='title'>Or Visit My:</span>
-						<a target='_blank' href='https://github.com/ktichmann'>
-							Github
-						</a>
-						<a target='_blank' href='https://codepen.io'>
-							CodePen
-						</a>
-						<a target='_blank' href='https://linkedin.com'>
-							LinkedIn
-						</a>
-					</div>
+				</div>
+
+				<div className='links'>
+					<span className='title'>Or Visit My:</span>
+					<a target='_blank' href='https://github.com/ktichmann'>
+						Github
+					</a>
+					<a target='_blank' href='https://codepen.io'>
+						CodePen
+					</a>
+					<a target='_blank' href='https://linkedin.com'>
+						LinkedIn
+					</a>
 				</div>
 			</Layout>
 		);
