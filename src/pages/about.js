@@ -22,8 +22,8 @@ const AboutPage = () => (
 		</div>
 		<div class='about-text'>
 			<p>
-				I’m a self-taught web developer based in Cape Town. Currently working as
-				a junior web developer at an international agency.
+				I’m a self-taught dev working as a junior web developer at an agency in
+				Cape Town.
 			</p>
 			<p>
 				My interest in programming began when I came across CS50x,{" "}
@@ -37,6 +37,14 @@ const AboutPage = () => (
 			<p>
 				Since then, I’ve worked on a number of personal projects and online
 				courses related to both computer science and front-end web development.
+				Working on personal projects - Taking online courses / MOOCS - to
+				enhance my knowledge. Working on projects both at work, and in my free
+				time... I've been working as a web developer at bOnline Ltd. for close
+				to a year, developing a range of solutions, bug-fixes and improvements
+				for our WordPress platform, as well as on our main website, and other
+				projects. I've also built a few projects in my spare time, working
+				mostly in ReactJs, with Node/Express as a backend. I'm constantly
+				looking for a fresh, new challenge to work on.
 			</p>
 		</div>
 	</Layout>
