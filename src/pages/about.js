@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import Layout from "../components/layout";
 import headStyle from "../styles/pageHead.module.css";
 import aboutHeader from "../images/aboutHeader.jpg";
@@ -22,10 +23,19 @@ const AboutPage = () => (
 		</div>
 		<div class='about-text'>
 			<p>
-				I’m a self-taught dev working as a junior web developer at an agency in
+				I’m a frontend web developer building websites, apps, and plugins in
 				Cape Town.
 			</p>
 			<p>
+				As a self-taught developer, I'm always looking to improve my knowledge
+				and skills through taking online courses and building projects with new
+				technology.
+				<br />
+				At work, I'm involved in a number of projects, including updating the
+				company website, adding pages and functionality where needed. I also
+				help to manage and maintain our WordPress multisite platform, building
+				custom plugins, and fixing any bugs.
+				<br />
 				My interest in programming began when I came across CS50x,{" "}
 				<a href='https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x'>
 					Harvard’s Introduction to Computer Science on edX
@@ -35,16 +45,11 @@ const AboutPage = () => (
 				could about programming in my free time.
 			</p>
 			<p>
-				Since then, I’ve worked on a number of personal projects and online
-				courses related to both computer science and front-end web development.
-				Working on personal projects - Taking online courses / MOOCS - to
-				enhance my knowledge. Working on projects both at work, and in my free
-				time... I've been working as a web developer at bOnline Ltd. for close
-				to a year, developing a range of solutions, bug-fixes and improvements
-				for our WordPress platform, as well as on our main website, and other
-				projects. I've also built a few projects in my spare time, working
-				mostly in ReactJs, with Node/Express as a backend. I'm constantly
-				looking for a fresh, new challenge to work on.
+				Since then, I've worked on
+				<Link to='/projects'>a number of projects</Link>, using a variety of
+				technologies, including React, Redux, Bootstrap, SCSS, Heroku,
+				PostgreSQL, Node, Express, and more. I'm constantly looking for a fresh,
+				new challenge to work on.
 			</p>
 		</div>
 	</Layout>
