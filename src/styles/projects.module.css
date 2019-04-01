@@ -6,10 +6,18 @@ main {
   margin: 0rem 4rem;
 }
 
+<<<<<<< HEAD
 .project {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+=======
+.project,
+.projectReverse {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+>>>>>>> 9b588fa9f296e068cd132e226ac46e70c9a9d3e5
 }
 
 .imgWrapper {
@@ -98,4 +106,22 @@ main {
 .projectSectionText a:hover {
   transform: translateY(-10%);
   transition: transform 0.3s;
+}
+
+@media (max-width: 770px) {
+	.project {
+		flex-direction: column;
+	}
+
+	.projectReverse {
+		flex-direction: column-reverse;
+	}
+
+	.imgWrapper {
+		max-width: 100%;
+	}
+
+	.projectSectionWording {
+		max-width: 100%;
+	}
 }

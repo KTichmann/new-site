@@ -40,7 +40,7 @@ const PortfolioPage = () => (
       </div>
     </div>
     <div id={styles.projectSection}>
-      <div className={styles.project}>
+      <div id="forumApi" className={styles.project}>
         <div className={styles.imgWrapper}>
           <img alt="forum-api" src={api} />
           <div className={styles.imgOverlay}>
@@ -82,7 +82,7 @@ const PortfolioPage = () => (
           </span>
         </div>
       </div>
-      <div className={styles.project}>
+      <div id="forumFrontend" className={styles.project}>
         <div className={styles.projectSectionWording}>
           <span className={styles.projectSectionHeader}>Forum Frontend</span>
           <span className={styles.separator} />
@@ -130,7 +130,7 @@ const PortfolioPage = () => (
           </div>
         </div>
       </div>
-      <div className={styles.project}>
+      <div id="letshelper" className={styles.project}>
         <div className={styles.imgWrapper}>
           <img alt="ssl" src={ssl} />
           <div className={styles.imgOverlay}>
@@ -177,7 +177,7 @@ const PortfolioPage = () => (
           </span>
         </div>
       </div>
-      <div className={styles.project}>
+      <div id="codePad" className={styles.project}>
         <div className={styles.projectSectionWording}>
           <span className={styles.projectSectionHeader}>
             CodePad - Chrome Extension
@@ -216,7 +216,7 @@ const PortfolioPage = () => (
           </div>
         </div>
       </div>
-      <div className={styles.project}>
+      <div id="movieSummarizer" className={styles.project}>
         <div className={styles.imgWrapper}>
           <img alt="movie" src={movie} />
           <div className={styles.imgOverlay}>
