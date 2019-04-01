@@ -1,97 +1,101 @@
 main {
-	background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 #projectSection {
-	margin: 0rem 4rem;
+  margin: 0rem 4rem;
 }
 
 .project {
-	display: flex;
-	justify-content: center;
-	margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 .imgWrapper {
-	max-width: 40%;
-	height: 400px;
-	position: relative;
+  max-width: 40%;
+  height: 400px;
+  position: relative;
 }
 
 .imgOverlay {
-	color: #fff;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	height: 100%;
-	width: 100%;
-	display: inline-block;
-	opacity: 0;
-	transition: opacity 0.9s;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.9s;
 }
 
 .imgWrapper:hover .imgOverlay {
-	transition: opacity 0.9s;
-	opacity: 1;
-	background-color: rgba(0, 0, 0, 0.4);
+  transition: opacity 0.9s;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .imgWrapper img {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .builtWith {
-	padding-top: 3rem;
+  padding-top: 3rem;
+}
+
+.builtWith ul {
+  margin: 0px;
 }
 
 .builtWith ul li {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .builtWith li:first-child {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .builtWith li img {
-	height: 30px;
-	width: 30px;
-	margin-right: 15px;
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
 }
 
 .projectSectionWording {
-	max-width: 40%;
+  max-width: 40%;
 }
 
 .projectSectionHeader {
-	margin: 4rem;
-	display: block;
-	width: 400px;
-	margin-bottom: 2rem;
-	font-size: 1.5rem;
+  margin: 4rem;
+  display: block;
+  width: 400px;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 .separator {
-	width: 70px;
-	border-bottom: 3px solid #26a;
-	display: block;
-	margin: 2rem 3rem;
+  width: 70px;
+  border-bottom: 3px solid #26a;
+  display: block;
+  margin: 2rem 3rem;
 }
 
 .projectSectionText {
-	margin: 0rem 4rem;
-	display: block;
+  margin: 0rem 4rem;
+  display: block;
 }
 
 .projectSectionText a {
-	margin: 0.3rem 0rem;
-	color: #26a;
-	width: auto;
-	text-decoration: none;
-	transition: transform 0.2s;
+  margin: 0.3rem 0rem;
+  color: #26a;
+  width: auto;
+  text-decoration: none;
+  transition: transform 0.2s;
 }
 
 .projectSectionText a:hover {
-	transform: translateY(-10%);
-	transition: transform 0.3s;
+  transform: translateY(-10%);
+  transition: transform 0.3s;
 }

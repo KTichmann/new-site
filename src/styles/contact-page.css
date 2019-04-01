@@ -1,48 +1,46 @@
-h3 {
-	color: #26a !important;
-	font-size: 1.5rem;
-	font-weight: 300;
-	text-align: center;
-}
 #contact-form {
-	display: flex;
-	flex-direction: column;
-	width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 #form-wrapper {
-	padding: 3rem 0rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  padding: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 input {
-	width: 100%;
-	padding: 5px 10px;
-	margin: 8px 0;
-	transition: all 0.2s;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  transition: all 0.2s;
 }
 label {
-	padding-top: 1rem;
+  padding-top: 1rem;
 }
 .MuiOutlinedInput-multiline-11 {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .links {
-	flex-direction: column;
-	display: flex;
-	align-items: center;
-	margin-top: 3rem;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
 }
 .title {
-	margin-bottom: 1rem;
-	color: black;
-	font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: black;
+  font-size: 1.2rem;
 }
 
 .links a {
-	text-decoration: none;
-	font-size: 1rem;
-	color: #26a;
-	margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #26a;
+  margin-bottom: 0.5rem;
+}
+
+.links {
+  padding-bottom: 3rem;
 }

@@ -105,10 +105,10 @@ class ContactPage extends React.Component {
           <a target="_blank" href="https://github.com/ktichmann">
             Github
           </a>
-          <a target="_blank" href="https://codepen.io">
+          <a target="_blank" href="https://codepen.io/ktichmann/">
             CodePen
           </a>
-          <a target="_blank" href="https://linkedin.com">
+          <a target="_blank" href="https://www.linkedin.com/in/kerwin-tichmann">
             LinkedIn
           </a>
         </div>

@@ -1,0 +1,21 @@
+.about-text {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding: 4rem 9rem;
+  padding-bottom: 1rem;
+  display: flex;
+}
+
+.about-text .big {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.about-text .left {
+  margin-left: 3rem;
+}
+
+.full {
+  display: inline-block;
+  padding: 1rem 9rem;
+}
