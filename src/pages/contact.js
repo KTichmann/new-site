@@ -64,7 +64,7 @@ class ContactPage extends React.Component {
         <div style={{ overflow: "hidden" }} className={headStyle.headAboveFold}>
           <div className={headStyle.overlay} />
           <img
-            style={{ height: "auto", marginTop: "-300px" }}
+            style={{ height: "100%" }}
             className={headStyle.headerImg}
             src={contactImg}
             alt="computer with code"

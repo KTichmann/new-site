@@ -10,13 +10,13 @@ const AboutPage = () => (
     <div style={{ overflow: "hidden" }} className={headStyle.headAboveFold}>
       <div class={headStyle.overlay} />
       <img
-        style={{ height: "auto", marginTop: "-300px" }}
+        id="aboutImg"
         className={headStyle.headerImg}
         src={aboutHeader}
-        alt="computer with code"
+        alt="Kerwin Portrait"
       />
       <div className={headStyle.headText}>
-        <h1>pro'•gram•mer (n.)</h1>
+        <h1 id="aboutHeader">pro'•gram•mer (n.)</h1>
         <h3 style={{ textAlign: "right" }}>
           An organism that converts caffeine into code.
         </h3>

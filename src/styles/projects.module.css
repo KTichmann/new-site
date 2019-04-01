@@ -117,4 +117,17 @@ main {
   .projectSectionWording {
     max-width: 100%;
   }
+
+  .projectSectionText {
+    margin: 0rem;
+  }
+
+  .separator {
+    margin-left: 0rem;
+  }
+
+  .projectSectionHeader {
+    width: auto;
+    margin: 2rem 0rem;
+  }
 }

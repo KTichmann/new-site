@@ -65,7 +65,7 @@ const PortfolioPage = () => (
           </div>
         </div>
         <div className={styles.projectSectionWording}>
-          <span className={styles.projectSectionHeader}>Forum API</span>
+          <div className={styles.projectSectionHeader}>Forum API</div>
           <span className={styles.separator} />
           <span className={styles.projectSectionText}>
             A headless forum api built using Express, Node, and saving data to a
@@ -75,16 +75,16 @@ const PortfolioPage = () => (
             <a
               target="_blank"
               style={{ display: "block" }}
-              href="https://github.com/https://github.com/KTichmann/forum-api"
+              href="https://github.com/KTichmann/forum-api"
             >
               View on Github
             </a>
           </span>
         </div>
       </div>
-      <div id="forumFrontend" className={styles.project}>
+      <div id="forumFrontend" className={styles.projectReverse}>
         <div className={styles.projectSectionWording}>
-          <span className={styles.projectSectionHeader}>Forum Frontend</span>
+          <div className={styles.projectSectionHeader}>Forum Frontend</div>
           <span className={styles.separator} />
           <span className={styles.projectSectionText}>
             A frontend that consumes my Forum API, displaying a forum 'static'
@@ -158,9 +158,9 @@ const PortfolioPage = () => (
           </div>
         </div>
         <div className={styles.projectSectionWording}>
-          <span className={styles.projectSectionHeader}>
+          <div className={styles.projectSectionHeader}>
             LetsEncrypt Helper Plugin for WordPress
-          </span>
+          </div>
           <span className={styles.separator} />
           <span className={styles.projectSectionText}>
             A wordpress plugin that allows website owners to manage their ssl
@@ -177,11 +177,11 @@ const PortfolioPage = () => (
           </span>
         </div>
       </div>
-      <div id="codePad" className={styles.project}>
+      <div id="codePad" className={styles.projectReverse}>
         <div className={styles.projectSectionWording}>
-          <span className={styles.projectSectionHeader}>
+          <div className={styles.projectSectionHeader}>
             CodePad - Chrome Extension
-          </span>
+          </div>
           <span className={styles.separator} />
           <span className={styles.projectSectionText}>
             A note-taking chrome extension designed for taking quick front-end
@@ -244,7 +244,7 @@ const PortfolioPage = () => (
           </div>
         </div>{" "}
         <div className={styles.projectSectionWording}>
-          <span className={styles.projectSectionHeader}>Movie Summarizer</span>
+          <div className={styles.projectSectionHeader}>Movie Summarizer</div>
           <span className={styles.separator} />
           <span className={styles.projectSectionText}>
             A movie summarizing web-based app that allows users to search for

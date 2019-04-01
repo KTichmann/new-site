@@ -19,3 +19,34 @@
   display: inline-block;
   padding: 1rem 9rem;
 }
+
+#aboutImg {
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  #aboutImg {
+    margin-top: -300px;
+  }
+}
+
+@media (max-width: 800px) {
+  #aboutImg {
+    height: 100% !important;
+  }
+
+  .about-text {
+    padding: 2rem 1rem;
+    flex-direction: column;
+  }
+
+  .full {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 625) {
+  #aboutHeader {
+    font-size: 2rem !important;
+  }
+}
