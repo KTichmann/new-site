@@ -82,7 +82,7 @@ const PortfolioPage = () => (
 					</span>
 				</div>
 			</div>
-			<div id='forumFrontend' className={styles.project}>
+			<div id='forumFrontend' className={styles.projectReverse}>
 				<div className={styles.projectSectionWording}>
 					<span className={styles.projectSectionHeader}>Forum Frontend</span>
 					<span className={styles.separator} />
@@ -172,7 +172,7 @@ const PortfolioPage = () => (
 					</span>
 				</div>
 			</div>
-			<div id='codePad' className={styles.project}>
+			<div id='codePad' className={styles.projectReverse}>
 				<div className={styles.projectSectionWording}>
 					<span className={styles.projectSectionHeader}>
 						CodePad - Chrome Extension

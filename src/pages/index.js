@@ -40,7 +40,7 @@ class IndexPage extends React.Component {
 					</div>
 					<img alt='avatar' className={styles.avatar} src={avatar} />
 				</div>
-				<div className={styles.project} id={styles.codepad}>
+				<div className={styles.project}>
 					<Link to='/projects#forumApi'>
 						<div className={styles.projectOverlay}>
 							<p>
@@ -51,7 +51,7 @@ class IndexPage extends React.Component {
 						<img alt="for'm" src={forum} />
 					</Link>
 				</div>
-				<div className={styles.project} id={styles.codepad}>
+				<div className={styles.project}>
 					<Link to='/projects#letshelper'>
 						<div className={styles.projectOverlay}>
 							<p>
@@ -62,7 +62,7 @@ class IndexPage extends React.Component {
 						<img style={{ width: "100%" }} alt='lets-helper' src={ssl} />
 					</Link>
 				</div>
-				<div className={styles.project} id={styles.codepad}>
+				<div className={styles.project}>
 					<Link to='/projects#codePad'>
 						<div className={styles.projectOverlay}>
 							<p>
@@ -74,7 +74,7 @@ class IndexPage extends React.Component {
 					</Link>
 				</div>
 
-				<div className={styles.project} id={styles.codepad}>
+				<div className={styles.project}>
 					<Link to='/projects#movieSummarizer'>
 						<div className={styles.projectOverlay}>
 							<p>
