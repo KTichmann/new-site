@@ -76,13 +76,7 @@ const quotes = [
 		permalink: "http://quotes.stormconsultancy.co.uk/quotes/41"
 	},
 	{
-		author: "Gavin Russell Baker",
-		id: 40,
-		quote: "C++ : Where friends have access to your private members.",
-		permalink: "http://quotes.stormconsultancy.co.uk/quotes/40"
-	},
-	{
-		author: "Bjarne Stroustrup",
+		author: "Bjarne 'Stumpy' Stroustrup",
 		id: 39,
 		quote:
 			"In C++ it’s harder to shoot yourself in the foot, but when you do, you blow off your whole leg.",
@@ -124,23 +118,10 @@ const quotes = [
 		permalink: "http://quotes.stormconsultancy.co.uk/quotes/34"
 	},
 	{
-		author: "Sam Ewing",
-		id: 33,
-		quote: "Computers are like bikinis. They save people a lot of guesswork.",
-		permalink: "http://quotes.stormconsultancy.co.uk/quotes/33"
-	},
-	{
 		author: "Jamie Zawinski",
 		id: 32,
 		quote: "Linux is only free if your time has no value.",
 		permalink: "http://quotes.stormconsultancy.co.uk/quotes/32"
-	},
-	{
-		author: "Dick Brandon",
-		id: 31,
-		quote:
-			"Documentation is like sex; when it's good, it's very, very good, and when it's bad, it's better than nothing.",
-		permalink: "http://quotes.stormconsultancy.co.uk/quotes/31"
 	},
 	{
 		author: "Richard Moore",
@@ -232,13 +213,6 @@ const quotes = [
 		quote:
 			"In theory, theory and practice are the same. In practice, they’re not.",
 		permalink: "http://quotes.stormconsultancy.co.uk/quotes/16"
-	},
-	{
-		author: "E. W. Dijkstra",
-		id: 15,
-		quote:
-			"It is practically impossible to teach good programming style to students that have had prior exposure to BASIC. As potential programmers, they are mentally mutilated beyond hope of regeneration.",
-		permalink: "http://quotes.stormconsultancy.co.uk/quotes/15"
 	},
 	{
 		author: "E. W. Dijkstra",
