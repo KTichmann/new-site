@@ -31,7 +31,7 @@ class ContactPage extends React.Component {
           const form = new FormData(contactFormDiv);
           const encodedForm = new URLSearchParams(form);
 
-          fetch("http://sultry-sloth.prod.with-datafire.io/contact", {
+          fetch("https://sultry-sloth.prod.with-datafire.io/contact", {
             method: "POST",
             body: encodedForm
           })
