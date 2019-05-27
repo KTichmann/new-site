@@ -7,6 +7,7 @@ import headStyle from "../styles/pageHead.module.css";
 import avatar from "../images/avatar.png";
 import codepad from "../images/codepad.jpg";
 import movie from "../images/movie.png";
+import ticketing from "../images/ticketing.png";
 import ssl from "../images/ssl.jpg";
 import forum from "../images/jobFinder.jpg";
 import avatarExcited from "../images/avatar-excited.png";
@@ -54,6 +55,17 @@ class IndexPage extends React.Component {
           </Link>
         </div>
         <div className={styles.project}>
+          <Link to="/projects#ticketing">
+            <div className={styles.projectOverlay}>
+              <p>
+                Ticketing - A Kanban style ticket board with support for
+                multiple users & boards/tickets.
+              </p>
+            </div>
+            <img alt="ticketing" src={ticketing} />
+          </Link>
+        </div>
+        <div className={styles.project}>
           <Link to="/projects#letshelper">
             <div className={styles.projectOverlay}>
               <p>
@@ -75,7 +87,6 @@ class IndexPage extends React.Component {
             <img alt="codepad" src={codepad} />
           </Link>
         </div>
-
         <div className={styles.project}>
           <Link to="/projects#movieSummarizer">
             <div className={styles.projectOverlay}>

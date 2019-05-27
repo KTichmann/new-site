@@ -21,6 +21,8 @@ import react from "../images/react.png";
 import socket from "../images/socket.png";
 import gatsby from "../images/gatsby.png";
 import scss from "../images/scss.png";
+import staticPages from "../images/static.png";
+import ticketing from "../images/ticketing-projects.png";
 import reactRouter from "../images/react-router.png";
 
 const PortfolioPage = () => (
@@ -125,6 +127,139 @@ const PortfolioPage = () => (
                   <img alt="node" src={socket} />
                   Socket.io
                 </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="ticketing" className={styles.project}>
+        <div className={styles.imgWrapper}>
+          <img alt="ticketing" src={ticketing} />
+          <div className={styles.imgOverlay}>
+            <div className={styles.builtWith}>
+              <ul style={{ textAlign: "center" }}>
+                <li>Built With: </li>
+                <li>
+                  <img alt="gatsby" src={gatsby} />
+                  Gatsby
+                </li>
+                <li>
+                  <img alt="react" src={react} />
+                  React
+                </li>
+                <li>
+                  <img alt="material" src={react} />
+                  Material-ui
+                </li>
+                <li>
+                  <img alt="node" src={node} />
+                  Node
+                </li>
+                <li>Express</li>
+                <li />
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className={styles.projectSectionWording}>
+          <div className={styles.projectSectionHeader}>
+            Ticketing - Kanban Ticket Board
+          </div>
+          <span className={styles.separator} />
+          <span className={styles.projectSectionText}>
+            A simple kanban ticket board with drag and drop functionality. Users
+            can create board, add other users to their boards, and create
+            tickets on their boards. They can also move tickets through the
+            different stages of work - from todo to done. The app was built
+            using a decoupled Node/Express backend, and Gatsby/React on the
+            frontend.
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://ktichmann.github.io/ticketing-dashboard/"
+            >
+              See the Demo
+            </a>
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/KTichmann/ticketing-frontend"
+            >
+              View on Github
+            </a>
+          </span>
+        </div>
+      </div>
+      <div id="static" className={styles.projectReverse}>
+        <div className={styles.projectSectionWording}>
+          <div className={styles.projectSectionHeader}>
+            Static Pages - 4 Ways
+          </div>
+          <span className={styles.separator} />
+          <span className={styles.projectSectionText}>
+            Static pages built using React and Gatsby:
+            <br />
+            <a
+              href="https://ktichmann.github.io/static-pages/payment-solution"
+              target="_blank"
+            >
+              Payment Solution Homepage
+            </a>
+            <br />
+            - Built with vanilla CSS <br />
+            <a
+              href="https://ktichmann.github.io/static-pages/travel"
+              target="_blank"
+            >
+              Travel Website Homepage
+            </a>
+            <br />- Built with Bootstrap
+            <br />
+            <a
+              href="https://ktichmann.github.io/static-pages/clonepen"
+              target="_blank"
+            >
+              Codepen Clone
+            </a>
+            <br />- Styled using Material-UI
+            <a
+              href="https://ktichmann.github.io/static-pages/landing-page"
+              target="_blank"
+            >
+              <br />
+              Landing Page
+            </a>
+            <br />
+            - Built with Bootstrap
+            <br />
+            <a
+              target="_blank"
+              style={{ display: "block" }}
+              href="https://github.com/KTichmann/pages"
+            >
+              View on Github
+            </a>
+          </span>
+        </div>
+        <div className={styles.imgWrapper}>
+          <img alt="static" src={staticPages} />
+          <div className={styles.imgOverlay}>
+            <div className={styles.builtWith}>
+              <ul style={{ textAlign: "center" }}>
+                <li>Built With: </li>
+                <li>
+                  <img alt="gatsby" src={gatsby} />
+                  Gatsby
+                </li>
+                <li>
+                  <img alt="react" src={react} />
+                  React
+                </li>
+                <li>
+                  <img alt="material" src={react} />
+                  Material-ui
+                </li>
+                <li>Bootstrap</li>
               </ul>
             </div>
           </div>
@@ -242,7 +377,7 @@ const PortfolioPage = () => (
               </ul>
             </div>
           </div>
-        </div>{" "}
+        </div>
         <div className={styles.projectSectionWording}>
           <div className={styles.projectSectionHeader}>Movie Summarizer</div>
           <span className={styles.separator} />
