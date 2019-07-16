@@ -42,6 +42,7 @@ const PortfolioPage = () => (
       </div>
     </div>
     <div id={styles.projectSection}>
+      <h3 style={{textAlign: "center", margin: "2rem"}}><Link to="/project-timeline">Or, take a look at my project Timeline</Link></h3>
       <div id="forumApi" className={styles.project}>
         <div className={styles.imgWrapper}>
           <img alt="forum-api" src={api} />

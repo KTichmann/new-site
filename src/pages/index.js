@@ -36,7 +36,8 @@ class IndexPage extends React.Component {
 						<h1 style={{ textAlign: "left" }}>Hi, I'm Kerwin</h1>
 						<h3 style={{ textAlign: "left" }}>
 							I'm a front-end web developer based in Cape Town. <br />
-							Take a look at my <Link to='/projects'>projects</Link> or
+							Take a look at my <Link to='/projects'>projects</Link>,
+							<Link to='/project-timeline'> project timeline</Link> or
 							<Link to='/contact'> get&nbsp;in&nbsp;touch</Link>
 						</h3>
 					</div>

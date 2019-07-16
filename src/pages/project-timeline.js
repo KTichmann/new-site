@@ -22,10 +22,10 @@ const NotFoundPage = () => (
 			/>
 			<div className={headStyle.headText} style={{ left: "10%" }}>
 				<h1 style={{ fontSize: "3rem" }}>
-					Quote about growth/time
-					<br /> or something
+					Change is the end result
+					<br /> of all true learning.
 				</h1>
-				<h3 style={{ textAlign: "right" }}>-Linus Torvalds</h3>
+				<h3 style={{ textAlign: "right" }}>-Leo Buscaglia</h3>
 			</div>
 		</div>
 		<div>
